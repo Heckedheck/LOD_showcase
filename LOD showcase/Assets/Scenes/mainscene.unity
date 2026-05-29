@@ -632,7 +632,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7f058e1981206d4cbb09474d5991fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  Movement: {x: 0, y: 0}
+  inputActions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  moveSpeed: 5
+  lookSpeed: 5
 --- !u!1 &1341155431 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44b7cb9b69d6ba54aa908f0133e52353, type: 3}
