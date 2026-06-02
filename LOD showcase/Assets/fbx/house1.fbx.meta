@@ -3,7 +3,37 @@ guid: 362dd77560b8210488c473b3ec9a26bd
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 34
+    second: {fileID: 2100000, guid: 92cde19e50c4da149b6dcce9e79a9c31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 82d4af537f0ffe84180578e6942e88da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 5051f577277ca884fb0f7face0c56837, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 92cde19e50c4da149b6dcce9e79a9c31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sheet
+    second: {fileID: 2100000, guid: 82d4af537f0ffe84180578e6942e88da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windows
+    second: {fileID: 2100000, guid: 5051f577277ca884fb0f7face0c56837, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -32,7 +62,12 @@ ModelImporter:
     clipAnimations: []
     isReadable: 0
   meshes:
-    lODScreenPercentages: []
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.03125
+    - 0.01
     globalScale: 1
     meshCompression: 0
     addColliders: 0
