@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 9b9458ba8826dff48bf50311faf23009
+guid: 6fd767c22cdd62e4abc368f56eacf2ea
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark7
+    second: {fileID: -6007057507637456681, guid: 2d2c66776938edb45bb3ab53f6330e16, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sheet
+    second: {fileID: 2100000, guid: 82d4af537f0ffe84180578e6942e88da, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -32,7 +42,10 @@ ModelImporter:
     clipAnimations: []
     isReadable: 0
   meshes:
-    lODScreenPercentages: []
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
     globalScale: 1
     meshCompression: 0
     addColliders: 0
